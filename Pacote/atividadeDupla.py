@@ -37,9 +37,9 @@ while resp != 'N':
         eah.append(valor)
         eah.append(atual*valor)
         if atual > min:
-            eah.append('Sim')
-        else:
             eah.append('Não')
+        else:
+            eah.append('Sim')
         x.add_row(eah)
         resp = input('Deseja cadastrar outra mercadoria? (S/N)\n')
         resp = resp.upper()
